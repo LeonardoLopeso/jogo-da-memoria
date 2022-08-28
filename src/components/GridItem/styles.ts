@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 type ContainerProps = {
   showBackground: boolean;
+  status: boolean;
 }
 
 export const Container = styled.div<ContainerProps>`
@@ -15,6 +16,7 @@ export const Container = styled.div<ContainerProps>`
   border: 1px solid ${props => props.showBackground ? '#FFF' : '#CCC'};
   box-shadow: 1px 2px 2px rgba(0,0,0,.1);
   transition: all ease .3s;
+  opacity: ${props => props.status ? '1' : '.1'};
   
   &:hover {
     border: 1px solid rgba(0,0,0,.2);

@@ -50,12 +50,25 @@ export const GridArea = styled.div`
 `;
 
 export const Grid = styled.div`
+  position: relative;
   width:430px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 10px;
+  transition: all ease .4s;
 
   @media (max-width: 750px) {
     grid-template-columns: repeat(3, 1fr);
   }
+`;
+
+export const GameOver = styled.div`
+  position: absolute;
+  font-size: 2.5rem;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width:100%;
+  height: 100%;
 `;

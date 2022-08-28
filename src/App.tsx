@@ -128,12 +128,16 @@ const App = () => {
         <Button label="Reiniciar" icon={RestartIcon} onClick={resetAndCreateGrid} />
       </C.Info>
       <C.GridArea>
-        <C.Grid>
+        <C.Grid>  
+          {!playing &&
+            <C.GameOver>Fim de jogo!</C.GameOver>
+          }        
           {gridItems.map((item, index) => (
             <GridItem
               key={index}
               item={item}
               onClick={() => handleItemClick(index)}
+              status={playing}
             />
           ))}
         </C.Grid>
