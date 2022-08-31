@@ -2,6 +2,11 @@
 
 Este projeto foi feito em aula do curso [B7Web](https://b7web.com.br).
 
+![Captura de tela de 2022-08-30 20-58-52](https://user-images.githubusercontent.com/56572789/187564093-866a7636-7ced-4c7f-8e9e-17c0058f9dee.png)
+
+![Captura de tela de 2022-08-30 21-00-28](https://user-images.githubusercontent.com/56572789/187564199-971127c8-0e71-4400-ae8d-4c3329da8374.png)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
